@@ -30,29 +30,34 @@ body, html {
     grid-column: 2 / 3;
 }
 
-.menu1 {
-    color: white;
-    list-style-type: none;
-}
-
-.menu2 {
-    color: white;
-    list-style-type: none;
-}
-
 .title {
     color: white;
     font-size: 20px;
-    /* display: grid;
-    align-items: flex-start;
-    justify-content: start;
-    padding: 20px; */
+    display: flex;
+    align-self: center;
+    justify-self: start ;
+    margin-left: 20px;
+    gap: 10px
 }
 
-.menu1 > li {
-
+.primaryMenu {
+    color: white;
+    list-style-type: none;
 }
 
-.menu1 > li > img {
-    margin-right: 20px;
+ul {
+    padding: 0;
+}
+
+ul > li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+.secondaryMenu {
+    color: white;
+    list-style-type: none;
 }
