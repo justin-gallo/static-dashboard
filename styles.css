@@ -80,14 +80,8 @@ ul > li {
     display: grid;
     grid-template-columns: 9fr 6fr;
     grid-template-rows: 3fr 5fr;
-}
-
-.search {
-    border: 1px solid black;
-}
-
-.cornerProfile {
-    border: 1px dotted black;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 10px -20px;
+    z-index: 0;
 }
 
 .welcome {
@@ -96,4 +90,57 @@ ul > li {
 
 .linkContainer {
     border: 1px solid black;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+}
+
+.search > label {
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.search > input {
+    width: calc(100px + 28vw);
+    height: 2.5vh;
+    background-color: #e2e8f0;
+    border: 0px solid black;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cornerProfile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.notifIcon > img {
+    margin: 0;
+    padding-top: 7px;
+}
+
+.profilePhotoSmall > img {
+    width: 30px;
+    margin-right: 2vw;
+    margin-left: 2.5vw;
+    margin-top: 5px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.nameSmall > p {
+    margin: 0;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    font-size: 16px;
 }
