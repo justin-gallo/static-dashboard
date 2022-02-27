@@ -1,6 +1,10 @@
+/* Overall Page Formatting: */
+
 body, html {
     height: 100%;
     margin: 0;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc(12px + 0.5vw);
 }
 
 .container {
@@ -30,14 +34,21 @@ body, html {
     grid-column: 2 / 3;
 }
 
+/* Sidebar Styling: */
+
 .title {
     color: white;
-    font-size: 20px;
     display: flex;
     align-self: center;
     justify-self: start ;
     margin-left: 20px;
-    gap: 10px
+    margin-right: 20px;;
+    gap: 10px;
+    font-size: calc(16px + 0.5vw);
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .primaryMenu {
@@ -55,9 +66,34 @@ ul > li {
     gap: 1rem;
     margin-left: 24px;
     font-weight: bold;
+    height: 6vh;
 }
 
 .secondaryMenu {
     color: white;
     list-style-type: none;
+}
+
+/* Header Styling */
+
+.header {
+    display: grid;
+    grid-template-columns: 9fr 6fr;
+    grid-template-rows: 3fr 5fr;
+}
+
+.search {
+    border: 1px solid black;
+}
+
+.cornerProfile {
+    border: 1px dotted black;
+}
+
+.welcome {
+    border: 1px dashed black;
+}
+
+.linkContainer {
+    border: 1px solid black;
 }
