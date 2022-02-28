@@ -299,6 +299,11 @@ h4 {
 .projectButtons {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 20px 0px;
+    padding: 0;
+    gap: 10px;
 }
 
 .announcementsPane {
