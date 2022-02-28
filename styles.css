@@ -266,6 +266,7 @@ h4 {
     display: grid;
     grid-template-columns: 8px 1fr;
     grid-template-rows: 3fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;
 }
 
 .colorStripe {
@@ -277,11 +278,35 @@ h4 {
     border-radius: 10px 0px 0px 10px;
 }
 
+.projectInfo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.projectTitle {
+    font-size: 14px;
+    margin: 20px 0px 0px 10px;
+    padding: 0;
+}
+
+.projectDescription {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    margin: 0px 10px 10px 10px;
+    padding: 0;
+}
+
+.projectButtons {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
 .announcementsPane {
     background-color: white;
     height: 235px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;
 }
 
 .trendingPane {
@@ -289,4 +314,6 @@ h4 {
     height: 220px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;
 }
+
