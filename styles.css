@@ -308,7 +308,8 @@ h4 {
 
 .announcementsPane {
     background-color: white;
-    height: 235px;
+    height: 80%;
+    width: 90%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;
@@ -316,9 +317,9 @@ h4 {
 
 .trendingPane {
     background-color: white;
-    height: 220px;
+    height: 74%;
+    width: 90%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;
 }
-
