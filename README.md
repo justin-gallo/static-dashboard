@@ -11,3 +11,8 @@ This is a more advanced "dashboard" layout to practice CSS grid & flexbox.
 * Advanced my understanding of gradients & color schemes. 
 * Working one element at a time is a nearly essential tactic when working with nested grids/flexbox. Trying to do too much at once makes everything too hard to keep track of, and hurts my brain. 
 * On the same vein, adding borders to elements within a grid is helpful to see how much space rows/columns are *actually* taking up. 
+
+### *Things to change*
+
+* Make design more responsive (mobile layout?)
+* Additional interactivity (:hov animations, easter eggs)
