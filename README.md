@@ -2,6 +2,8 @@
 
 This is a more advanced "dashboard" layout to practice CSS grid & flexbox. 
 
+#### [Live Preview](https://justin-gallo.github.io/static-dashboard/)
+
 ### *Things I learned*
 
 * Using grid nested within another grid to create complex layouts. 
